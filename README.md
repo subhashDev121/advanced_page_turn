@@ -6,7 +6,7 @@
 
 Add a advanced page turn effect to widgets in your app.
 
-Created by Subhash Shukla [@slightfoot](https://github.com/subhashDev121)
+Created by Subhash Shukla (https://github.com/subhashDev121)
 
 
 ## Example
