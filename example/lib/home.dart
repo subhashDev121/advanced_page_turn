@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
         showDragCutoff: false,
         lastPage: Container(child: Center(child: Text('Last Page!'))),
         children: <Widget>[
-          for (var i = 0; i < 20; i++) AlicePage(page: i),
+          for (var i = 0; i < 20; i++) PageView(page: i),
         ],
         initialIndex: 0,
         onPageChanged: (int currentPage){
@@ -38,10 +38,10 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 
-class AlicePage extends StatelessWidget {
+class PageView extends StatelessWidget {
   final int? page;
 
-  const AlicePage({Key? key, this.page}) : super(key: key);
+  const PageView({Key? key, this.page}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return DefaultTextStyle.merge(
