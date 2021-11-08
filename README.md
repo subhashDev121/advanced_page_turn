@@ -1,5 +1,5 @@
 # advanced_page_turn
-[![Flutter Community: page_turn](https://fluttercommunity.dev/_github/header/page_turn)](https://github.com/fluttercommunity/community)
+
 
 # Advanced Page Turn Widget
 
